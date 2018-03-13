@@ -1,0 +1,152 @@
+blockquote, body, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, html, legend,
+li, ol, p, table, td, th, ul {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: normal 87%/1.4 Arial, sans-serif;
+    color: #000;
+}
+
+
+/* ОБЩИЕ */
+a {
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
+    &:visited {
+        color: #728bc4;
+        border-color: rgba(114, 139, 196, .3);
+    }
+}
+
+.on {
+    display: block;
+}
+
+.off {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.float {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.float(@width) {
+    .float;
+    width: @width;
+}
+
+.float-r(@width) {
+    float: right;
+    width: @width;
+}
+
+.flb {
+    .block;
+    .float;
+}
+
+.clearfix {
+    &::after {
+        display: table;
+        content: "";
+        clear: both;
+    }
+}
+
+.center(@width) { /* Выравнивание блочного элемента по центру */
+    width: @width;
+    margin: 0 auto;
+}
+
+.border-radius(@radius) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.ico-logo, .ico-logo-chn, .ico-logo-eng {
+    font-size: 65px;
+    color: #8a8a8d
+}
+
+
+/* СТРАНИЦА */
+#layout {
+    .clearfix;
+    box-sizing: border-box;
+    max-width: 1450px;
+    padding: 20px 20px 70px;
+
+    header {
+        margin: 0 0 38px;
+        min-height: 65px;
+
+        .main {
+            .ico-logo {
+                font-size: 65px;
+            }
+        }
+
+        .extra {
+            margin-left: 260px;
+
+            .inner {
+                > * {
+                    float: left;
+                }
+
+                .important-links {
+                    margin: 0 20px 5px 0;
+
+                    .item {
+                        color: #7b7b7b;
+                        border-color: rgba(123, 123, 123, .3);
+
+                        a {
+                            color: #7b7b7b;
+                            border-color: rgba(123, 123, 123, .3);
+                        }
+
+                        &.ip {
+                            margin-right: 10px;
+
+                            a {
+                                display: inline-block;
+                                padding: 3px 10px;
+                                color: #fff;
+                                background: #a62a2a;
+                                border: none;
+                                .border-radius(5px);
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            &::before {
+                content: '';
+                .flb;
+                max-width: 40em;
+                width: -webkit-calc(50% - 35px);
+                width: -moz-calc(50% - 35px);
+                width: calc(50% - 35px);
+                height: 1px;
+                margin-right: 35px;
+            }
+        }
+    }
+}
