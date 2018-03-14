@@ -32,9 +32,31 @@
                                 <a href="#">Ответы на вопросы</a>
                             </span>
                         </div>
-                        <div class="social no_underline"></div>
-                        <ul class="langs no_visited"></ul>
-                        <div class="search-container"></div>
+                        <div class="social no_underline">
+                            <div class="networks">
+                                <a href="https://www.facebook.com/cbr.ru/" target="_blank" class="icon_fb">
+                                    <i class="ico-social ico-social-fb" title="Facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/bank_of_russia" target="_blank" class="icon_tw">
+                                    <i class="ico-social ico-social-tw" title="Twitter"></i>
+                                </a>
+                                <a href="https://www.youtube.com/user/BankofRussia" target="_blank" class="icon_youtube">
+                                    <i class="ico-social ico-social-yt" title="YouTube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <ul class="langs no_visited">
+                            <li class="selected"><b><!--noindex-->RU<!--/noindex--></b></li>
+                            <li><a href="#"><!--noindex-->EN<!--/noindex--></a></li>
+                        </ul>
+                        <div class="search-container">
+                            <form action="/search/" method="get" class="search">
+                                <div class="search-field">
+                                    <input type="text" class="text empty" results="10" placeholder="Поиск" name="text">
+                                    <button class="search-btn" type="submit"><i class="ico-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </header>
