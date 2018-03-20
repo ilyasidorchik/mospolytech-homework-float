@@ -160,7 +160,9 @@
                             </div>
                         </div>
                         <div class="widgets-draggable">
-                            
+                            <div id="group_mainind" class="group opened">
+
+                            </div>
                         </div>
                     </div>
                 </div>
