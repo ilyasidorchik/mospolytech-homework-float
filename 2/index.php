@@ -4,8 +4,7 @@
         <meta http-equiv="content-type" content="text/html;charset=utf-8">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <title>Центральный банк Российской Федерации</title>
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link href="less/styles.less" rel="stylesheet/less" type="text/css">
         <link href="http://cbr.ru/f/r/global/icomoon-styles.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="js/script.js">
