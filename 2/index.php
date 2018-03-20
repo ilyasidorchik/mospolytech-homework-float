@@ -120,7 +120,42 @@
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="hr no_bul"></div>
+                                    <div class="hr"></div>
+                                    <div class="widget opened type_table name_inflation">
+                                        <div class="content">
+                                            <table>
+                                                <tbody>
+                                                <tr>
+                                                    <td class="title">
+                                                        <div class="has_bubble in_text"><span class="pseudo">Инфляция</span>&nbsp;<ins>февраль 2018 года, %</ins>
+                                                            <div class="bubble">
+                                                                <p>
+                                                                    Показатель инфляции отражает темп прироста потребительских цен к соответствующему месяцу предыдущего года
+                                                                </p>
+                                                                <p class="link">
+                                                                    (источник:  <a href="http://www.gks.ru/wps/wcm/connect/rosstat_main/rosstat/ru/statistics/tariffs/">Федеральная служба государственной статистики</a>)
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>2,2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="title">
+                                                        <div class="has_bubble in_text"><span class="pseudo">Цель по инфляции,</span>&nbsp;<ins>%</ins>
+                                                            <div class="bubble">
+                                                                <p>
+                                                                    Цель по инфляции устанавливается для показателя инфляции, отражающего темп прироста потребительских цен к соответствующему месяцу предыдущего года
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>4,0</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
