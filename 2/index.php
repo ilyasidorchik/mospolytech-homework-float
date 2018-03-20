@@ -59,6 +59,74 @@
                     </div>
                 </div>
             </header>
+            <nav class="no_visited">
+                <ul class="quick_menu">
+                    <li><a href="/today/"><!--noindex-->Банк России сегодня<!--/noindex--></a></li>
+                    <li><a href="/DKP/"><!--noindex-->Денежно-кредитная политика<!--/noindex--></a></li>
+                    <li><a href="/Bank-notes_coins/"><!--noindex-->Банкноты и&nbsp;монеты<!--/noindex--></a></li>
+                    <li><a href="/analytics/"><!--noindex-->Информационно-аналитические материалы<!--/noindex--></a></li>
+                    <li><a href="/credit/"><!--noindex-->Информация по&nbsp;кредитным организациям<!--/noindex--></a></li>
+                    <li><a href="/finmarket/"><!--noindex-->Финансовые рынки<!--/noindex--></a></li>
+                    <li><a href="/fintech/"><!--noindex-->Финтех<!--/noindex--></a></li>
+                    <li><a href="/PSystem/"><!--noindex-->Национальная платежная система<!--/noindex--></a></li>
+                    <li><a href="/ckki/"><!--noindex-->Кредитные истории<!--/noindex--></a></li>
+                    <li><a href="/statistics/"><!--noindex-->Статистика<!--/noindex--></a></li>
+                    <li><a href="/ec_research/"><!--noindex-->Экономические исследования<!--/noindex--></a></li>
+                    <li><a href="/publ/"><!--noindex-->Издания Банка России<!--/noindex--></a></li>
+                    <li><a href="/tubr/"><!--noindex-->Территориальные учреждения<!--/noindex--></a></li>
+                    <li><a href="/bankmuseum/"><!--noindex-->Музейно-экспозиционный фонд<!--/noindex--></a></li>
+                    <li><a href="/press/"><!--noindex-->Пресс-служба<!--/noindex--></a></li>
+                    <li><a href="/anticor/"><!--noindex-->Противодействие коррупции<!--/noindex--></a></li>
+                </ul>
+                <div class="hr"></div>
+                <div class="hotline">
+                    <ul class="quick_menu">
+                        <li><a href="/analytics/?PrtId=na_vr">Официальное опубликование нормативных актов Банка России</a></li>
+                        <li><a href="/today/?PrtId=irp">Отношения с инвесторами</a></li>
+                        <li><a href="/lk_uio/">Личный кабинет</a></li>
+                    </ul>
+                    <div class="hr"></div>
+                    <ul class="quick_menu">
+                        <li><a href="/links/fmp_check/">Проверить участника финансового рынка</a></li>
+                    </ul>
+                    <div class="hr"></div>
+                    <div>
+                        <p><a class="no_visited" href="/contacts/">Контактная информация</a></p>
+                        <address>
+                            <span class="phone">+7 495 771-91-00</span><br>
+                            <span class="phone">8 800 250-40-72</span>
+                        </address>
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <div id="content">
+                    <div class="col widgets no_visited">
+                        <div class="group static opened">
+                            <div class="wrap">
+                                <div class="wrap2">
+                                    <div class="widget opened">
+                                        <div class="content">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="title"><a href="/press/keypr/">
+                                                                Ключевая ставка  с  12.02.2018</a>,
+                                                            <ins>%</ins>
+                                                        </td>
+                                                        <td>7,50</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="hr no_bul"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
     </div>
     </body>

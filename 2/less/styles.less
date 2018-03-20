@@ -23,12 +23,26 @@ a {
     }
 }
 
+.no_visited a:visited, .pseudo, .pseudo:visited, a, a.no_visited:visited {
+    color: #143f9e;
+    border-color: rgba(20, 63, 158, .3);
+}
+
 .no_underline a, a.no_underline {
     border-bottom: none;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 ul {
     list-style-type: none;
+}
+
+ins {
+    text-decoration: none;
 }
 
 input, textarea {
@@ -44,6 +58,10 @@ input, textarea {
     padding: 9px 30px;
     .border-box;
     .border-radius(4px);
+}
+
+.nowrap, .phone {
+    white-space: nowrap;
 }
 
 .on {
@@ -317,6 +335,162 @@ input, textarea {
                 width: calc(50% - 35px);
                 height: 1px;
                 margin-right: 35px;
+            }
+        }
+    }
+
+    nav {
+        .clearfix;
+        .float;
+        width: 225px;
+        margin: 0 35px 0 0;
+
+        ul.quick_menu {
+            list-style-type: none;
+            padding-bottom: 1em;
+
+            li {
+                margin-bottom: .8em;
+            }
+        }
+
+        .hr {
+            position: relative;
+            margin-bottom: 1.4em;
+            border-top: 1px solid #b9b6a3;
+
+            &::before {
+                background: #fff;
+                color: #b9b6a3;
+                content: '\e91a';
+                font-family: icomoon;
+                font-size: 10px;
+                left: 50%;
+                position: absolute;
+                text-align: center;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                width: 20px
+            }
+        }
+
+        .hotline {
+            margin-bottom: 40px;
+
+            p {
+                margin-bottom: .5em;
+            }
+
+            address {
+                margin-bottom: .5em;
+                color: #9a0000;
+                font-size: 145%;
+                font-style: normal;
+                display: inline-block;
+                text-align: right;
+            }
+        }
+    }
+
+    main {
+        .clearfix;
+        .float-r;
+        margin: 0;
+        width: -webkit-calc(100% - 260px);
+        width: -moz-calc(100% - 260px);
+        width: calc(100% - 260px);
+
+        #content {
+            .clearfix;
+
+            .col {
+                clear: none;
+
+                &.widgets {
+                    max-width: 40em;
+                    padding: .5em 0 0 0;
+                    width: -webkit-calc(50% - 35px);
+                    width: -moz-calc(50% - 35px);
+                    width: calc(50% - 35px);
+                    min-height: 80vh;
+
+                    .group {
+                        margin-bottom: 28px;
+
+                        &.static {
+                            border-top: 5px solid #ecb32e;
+                        }
+
+                        &.opened > .wrap {
+                            display: block;
+                        }
+
+                        > .wrap {
+                            display: none;
+                            padding: 10px 0;
+                            margin-bottom: -5px;
+
+                            > .wrap2 {
+                                padding: 0 1.5em 1px .8em;
+                                margin-top: -10px;
+                                background: #f7f7f7;
+                                -webkit-border-radius: 0 0 .5em .5em;
+                                -moz-border-radius: 0 0 .5em .5em;
+                                border-radius: 0 0 .5em .5em;
+
+                                .widget {
+                                    padding-top: .9em;
+                                    line-height: 1.2;
+
+                                    &.opened .content {
+                                        display: block
+                                    }
+
+                                    .content {
+                                        display: none;
+                                        padding: 10px 1.5em .5em 0;
+                                        top: -10px;
+                                        margin-bottom: -10px;
+
+                                        table {
+                                            .title {
+                                                text-align: left !important;
+                                                padding-left: 0 !important;
+
+                                                ins {
+                                                    display: inline-block;
+                                                    margin-left: .1em;
+                                                    font-size: 78%;
+                                                    white-space: nowrap;
+                                                }
+                                            }
+
+                                            td {
+                                                padding: 0 0 .25em .5em;
+                                                text-align: right !important;
+                                                line-height: 130%;
+
+                                                &.title {
+                                                    font-size: 100%;
+                                                    padding: 2px 0 .5em .6em;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .hr {
+                                    margin: .7em -1.5em 1em -.8em;
+                                    border-top: 1px solid #e0dace;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
