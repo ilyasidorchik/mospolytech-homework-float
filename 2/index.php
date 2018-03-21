@@ -160,8 +160,9 @@
                             </div>
                         </div>
                         <div class="widgets-draggable">
-                            <div id="group_mainind" class="group opened">
-
+                            <div class="group opened">
+                                <h2 class="dragger-handler"></h2>
+                                <div class="wrap"></div>
                             </div>
                         </div>
                     </div>
