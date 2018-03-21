@@ -513,6 +513,8 @@ input, textarea {
                 clear: none;
 
                 &.widgets {
+                    max-width: 40em;
+                    padding: .5em 0 0 0;
                     width: -webkit-calc(50% - 35px);
                     width: -moz-calc(50% - 35px);
                     width: calc(50% - 35px);
@@ -568,6 +570,8 @@ input, textarea {
                                         margin: 0 -1.36em .9em 0;
                                         font-size: 115%;
                                         line-height: 1.2
+                                    &.opened .content {
+                                        display: block
                                     }
 
                                     .content {
@@ -720,8 +724,6 @@ input, textarea {
                                     }
                                 }
 
-                                .hr {
-                                    margin: .7em -1.5em 1em -.8em;
                                     border-top: 1px solid #e0dace;
 
                                     + .widget {
