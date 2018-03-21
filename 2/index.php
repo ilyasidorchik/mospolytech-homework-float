@@ -161,8 +161,195 @@
                         </div>
                         <div class="widgets-draggable">
                             <div class="group opened">
-                                <h2 class="dragger-handler"></h2>
-                                <div class="wrap"></div>
+                                <h2 class="dragger-handler">
+                                    <ins class="bg"></ins>
+                                    <div class="holder">
+                                        <span class="pseudo">
+                                            <i class="toggler ico ico-arrow-fat"></i>
+                                            Основные индикаторы финансового рынка
+                                        </span>
+                                    </div>
+                                </h2>
+                                <div class="wrap">
+                                    <div class="wrap2">
+                                        <div id="widget_exchange" class="widget type_table name_exchange opened">
+                                            <h3><i class="toggler ico ico-arrow-fat unselectable"></i><a href="/currency_base/">Курсы валют</a></h3>
+                                            <div class="content">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title"></th>
+                                                        <th><a href="/currency_base/daily.aspx?date_req=20.03.2018">20.03.2018</a></th>
+                                                        <th><a href="/currency_base/daily.aspx?date_req=21.03.2018">21.03.2018</a></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Доллар США <ins>$</ins>
+                                                        </td>
+                                                        <td class="weak">
+                                                            <ins class="rubl">руб.</ins>&nbsp;57,5521</td>
+                                                        <td>
+                                                            <div class="w_data_wrap">
+                                                                <ins class="rubl">руб.</ins>&nbsp;<i class="up" title="+ 0,1512">↑</i>57,7033</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Евро <ins>€</ins>
+                                                        </td>
+                                                        <td class="weak">
+                                                            <ins class="rubl">руб.</ins>&nbsp;70,6049</td>
+                                                        <td>
+                                                            <div class="w_data_wrap">
+                                                                <ins class="rubl">руб.</ins>&nbsp;<i class="up" title="+ 0,6298">↑</i>71,2347</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="hr"></div>
+                                        <div id="widget_bicurbase" class="widget type_table name_bicurbase opened">
+                                            <h3><i class="toggler ico ico-arrow-fat unselectable"></i><a href="/hd_base/bicurbase/">Бивалютная корзина</a></h3>
+                                            <div class="content">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title">
+                                                            с&nbsp; 21.03.2018</td>
+                                                        <td>
+                                                            <ins class="rubl">руб.</ins>&nbsp;63,7924</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="hr"></div>
+                                        <div id="widget_metal" class="widget type_table name_metal opened">
+                                            <h3><i class="toggler ico ico-arrow-fat unselectable"></i><a href="/hd_base/metall/">Учетные цены на драгоценные металлы</a></h3>
+                                            <div class="content">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title">рублей за грамм</th>
+                                                        <th>21.03.2018</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Золото <ins>Au</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">2 435,42</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Серебро <ins>Ag</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">30,21</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Платина <ins>Pt</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">1 762,44</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Палладий <ins>Pd</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">1 845,93</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="hr"></div>
+                                        <div id="widget_interbank" class="widget type_table name_interbank opened">
+                                            <h3><i class="toggler ico ico-arrow-fat unselectable"></i><a href="/hd_base/mkr/mkr_base/">Ставки межбанковского кредитного рынка</a></h3>
+                                            <div class="content">
+                                                <table>
+                                                    <tbody>
+                                                    <tr class="">
+                                                        <th class="title">%</th>
+                                                        <th>1 день</th>
+                                                        <th>2-7 дней</th>
+                                                        <th>8-30 дней</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            MIACR
+                                                            <ins>
+                                                                на  19.03.2018</ins>
+                                                        </td>
+                                                        <td><span class="nowrap"><div class="w_data_wrap"><span class="nowrap">7,19</span></div></span></td>
+                                                        <td><span class="nowrap"><div class="w_data_wrap"><span class="nowrap">6,75</span></div></span></td>
+                                                        <td><span class="nowrap"><div class="w_data_wrap"><span class="nowrap"> — </span></div></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/ruonia/" target="_blank">RUONIA</a>&nbsp;<ins>
+                                                                за 19.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,14</span></div>
+                                                        </td>
+                                                        <td></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="with_spacing">
+                                                        <th class="title">%</th>
+                                                        <th>1 день</th>
+                                                        <th>1 неделя</th>
+                                                        <th>1 месяц</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/mosprime/" target="_blank">
+                                                                MosPrime &nbsp;Rate
+                                                            </a> <ins>
+                                                                на 20.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,53</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,51</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,48</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="with_spacing">
+                                                        <th class="title">%</th>
+                                                        <th>1 неделя</th>
+                                                        <th>2 недели</th>
+                                                        <th>1 месяц</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/roisfix/" target="_blank">ROISfix</a>&nbsp;<ins>
+                                                                на 20.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,19</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,17</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,09</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
