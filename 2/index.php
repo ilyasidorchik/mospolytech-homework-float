@@ -351,7 +351,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div></div>
+                            <div class="group" id="group_mbrstavki"></div>
                         </div>
                     </div>
                 </div>
