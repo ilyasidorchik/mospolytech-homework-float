@@ -103,6 +103,16 @@
                 <div id="content">
                     <div class="col widgets no_visited">
                         <div class="group static opened">
+                            <h2 class="dragger-handler ui-sortable-handle">
+                                <span class="dragger"><i class="ico-dragger"></i></span>
+                                <ins class="bg" style="display: inline;"></ins>
+                                <span class="holder">
+                                    <span class="pseudo">
+                                        <i class="toggler ico ico-arrow-fat"></i>
+                                        Основные индикаторы финансового рынка
+                                    </span>
+                                </span>
+                            </h2>
                             <div class="wrap">
                                 <div class="wrap2">
                                     <div class="widget opened">
@@ -351,7 +361,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="group" id="group_mbrstavki"></div>
+                            <div class="group" id="group_mbrstavki">
+                                <h2 class="dragger-handler ui-sortable-handle">
+                                    <span class="dragger">
+                                        <i class="ico-dragger"></i>
+                                    </span>
+                                    <ins class="bg"></ins>
+                                    <span class="holder">
+                                        <span class="pseudo">
+                                            <i class="toggler ico ico-arrow-fat"></i>
+                                            Параметры операций Банка России
+                                        </span>
+                                    </span>
+                                </h2>
+                            </div>
                         </div>
                     </div>
                 </div>
