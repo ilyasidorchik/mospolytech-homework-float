@@ -103,16 +103,6 @@
                 <div id="content">
                     <div class="col widgets no_visited">
                         <div class="group static opened">
-                            <h2 class="dragger-handler ui-sortable-handle">
-                                <span class="dragger"><i class="ico-dragger"></i></span>
-                                <ins class="bg" style="display: inline;"></ins>
-                                <span class="holder">
-                                    <span class="pseudo">
-                                        <i class="toggler ico ico-arrow-fat"></i>
-                                        Основные индикаторы финансового рынка
-                                    </span>
-                                </span>
-                            </h2>
                             <div class="wrap">
                                 <div class="wrap2">
                                     <div class="widget opened">
@@ -374,6 +364,279 @@
                                         </span>
                                     </span>
                                 </h2>
+                                <div class="wrap">
+                                    <div class="wrap2">
+                                        <div id="widget_stliquid" class="widget type_table name_overnight">
+                                            <h3><i class="toggler ico ico-arrow-fat unselectable"></i>Операции постоянного действия по предоставлению ликвидности
+                                            </h3>
+                                            <div class="content" style="display: none;">
+                                                <h3>Ставки по кредитным операциям</h3>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/overnight/">Ставка по кредиту overnight</a>&nbsp;<ins>
+                                                                с 26.03.2018, % годовых
+                                                            </ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap">
+                                                                <div class="w_data_wrap"><i class="down" title="- 0,2500">↓</i><span class="nowrap">8,25</span></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/fixedstav1day/">Ломбардным кредитам</a></td>
+                                                        <th class="nowrap">1 день</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ins>
+                                                                с 26.03.2018, % годовых
+                                                            </ins>
+                                                        </td>
+                                                        <td>8,25</td>
+                                                    </tr>
+                                                    <tr class="with_spacing">
+                                                        <td class="title"><a href="/hd_base/nmk/">Кредитам под активы или поручительства</a></td>
+                                                        <th class="nowrap">
+                                                            1 день
+                                                        </th>
+                                                        <th class="nowrap">
+                                                            2–549 дней
+                                                        </th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ins>
+                                                                с 26.03.2018, % годовых
+                                                            </ins>
+                                                        </td>
+                                                        <td>8,25</td>
+                                                        <td>9,00</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <ul class="without_dash without_indent">
+                                                    <li><a href="/DKP/creditco/" target="_blank">
+                                                            Условия проведения операций
+                                                            по предоставлению обеспеченных кредитов по фиксированным процентным ставкам
+                                                        </a></li>
+                                                </ul>
+                                                <div class="hr no_bul"></div>
+                                                <h3>Своп-разница по валютному свопу</h3>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title">руб.</th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/swap_info/swapinfo_sub/?P1=0">USD/RUB buy/sell overnight</a>&nbsp;<ins>
+                                                                на 26.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 0,0217">↓</i><span class="nowrap">0,0102</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/swap_info/swapinfo_sub/?P1=1">EUR/RUB buy/sell overnight</a>&nbsp;<ins>
+                                                                на 26.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 0,0350">↓</i><span class="nowrap">0,0168</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/swap_info/swapinfosellusd/?P1=0">USD/RUB sell/buy overnight</a>&nbsp;<ins>
+                                                                на 26.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 0,0106">↓</i><span class="nowrap">0,0047</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/swap_info/swapinfosellusd/?P1=1">USD/RUB sell/buy tom/spot</a>&nbsp;<ins>
+                                                                на 26.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 0,0004">↓</i><span class="nowrap">0,0047</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <h3>Операции РЕПО по фиксированной ставке</h3>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title"></th>
+                                                        <th class="nowrap">на 1 день</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Операции РЕПО по фиксированной ставке,
+                                                            <ins>%</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 0,2500">↓</i><span class="nowrap">8,25</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <ul class="without_dash without_indent">
+                                                    <li><a href="/hd_base/repo_session/">Объем операций РЕПО по фиксированной ставке</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="hr no_bul"></div>
+                                        <div id="widget_auliquid" class="widget type_table name_deposit">
+                                            <h3><i class="toggler ico ico-arrow-fat unselectable"></i>Операции на аукционной основе по предоставлению ликвидности
+                                            </h3>
+                                            <div class="content" style="display: none;">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Аукционы
+                                                            &nbsp;<ins>
+                                                                на  20.09.2016</ins>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/dirrepoauctionparam/" target="_blank">РЕПО</a></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title"></th>
+                                                        <th class="nowrap">
+                                                            7 дней
+                                                        </th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Лимит, <ins>млрд руб.</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">620,0</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Мин. ставка, <ins>%</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">10,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <ul class="without_dash without_indent">
+                                                    <li><a href="/hd_base/default.aspx?PrtID=repo" target="_blank">Итоги аукциона РЕПО</a></li>
+                                                    <li><a href="/hd_base/repo_shedule/" target="_blank">Расписание операций РЕПО</a></li>
+                                                </ul>
+                                                <div class="hr no_bul"></div>
+                                                <ul class="without_dash without_indent">
+                                                    <li><a href="/hd_base/nmcauction/" target="_blank">Параметры аукционов по предоставлению кредитов, обеспеченных нерыночными активами, по плавающей процентной ставке</a></li>
+                                                    <li><a href="/hd_base/nonmarketres/" target="_blank">Итоги аукционов по предоставлению кредитов, обеспеченных нерыночными активами, по плавающей процентной ставке</a></li>
+                                                    <li><a href="/hd_base/lombard/" target="_blank">Ставки по итогам ломбардных кредитных аукционов</a></li>
+                                                    <li><a href="/hd_base/rates_ca12m_old/" target="_blank">Ставки по итогам кредитных аукционов (кредиты, обеспеченные активами или поручительствами)</a></li>
+                                                    <li><a href="/hd_base/minrates_ca/" target="_blank">Минимальные ставки для кредитных аукционов (кредиты, обеспеченные активами или поручительствами)</a></li>
+                                                    <li><a href="/hd_base/lombard/lombard_minproc/" target="_blank">Минимальные ставки для ломбардных кредитных аукционов</a></li>
+                                                    <li><a href="/DKP/stav1w/" target="_blank">Условия проведения депозитного / кредитного аукциона на срок «1 неделя»</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="hr no_bul"></div>
+                                        <div id="widget_audeposit" class="widget type_table name_deposit">
+                                            <h3><i class="toggler ico ico-arrow-fat unselectable"></i>Аукционы по размещению (доразмещению) ОБР
+                                            </h3>
+                                            <div class="content" style="display: none;">
+                                                <ul class="without_dash without_indent">
+                                                    <li><a href="/hd_base/obr/odrpi/" target="_blank">Параметры аукционов по размещению (доразмещению) ОБР</a></li>
+                                                    <li><a href="/hd_base/obr/odrri/" target="_blank">Итоги аукционов по размещению (доразмещению) ОБР</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="hr no_bul"></div>
+                                        <div id="widget_audeposit" class="widget type_table name_deposit">
+                                            <h3><i class="toggler ico ico-arrow-fat unselectable"></i>Депозитные операции на аукционной основе
+                                            </h3>
+                                            <div class="content" style="display: none;">
+                                                <ul class="without_dash without_indent">
+                                                    <li><a href="/hd_base/itogidepauct/" target="_blank">Итоги депозитных аукционов</a></li>
+                                                    <li><a href="/hd_base/depomaxproc/" target="_blank">Максимальные ставки для депозитных аукционов</a></li>
+                                                    <li><a href="/DKP/stav1w/" target="_blank">Условия проведения депозитного / кредитного аукциона на срок «1 неделя»</a></li>
+                                                    <li><a href="/DKP/thin_adj/" target="_blank">Условия проведения Банком России депозитных операций «тонкой настройки» на аукционной основе на срок от 1 до 6 дней</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="hr no_bul"></div>
+                                        <div id="widget_stdeposit" class="widget type_table name_deposit">
+                                            <h3><i class="toggler ico ico-arrow-fat unselectable"></i>Депозитные операции постоянного действия
+                                            </h3>
+                                            <div class="content" style="display: none;">
+                                                <h3><a href="/hd_base/deposit_base/?DateTo=today">Ставки по депозитным операциям</a></h3>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title" colspan="2">
+                                                            с 26.03.2018, % годовых
+                                                        </th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Овернайт
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 0,2500">↓</i><span class="nowrap">6,25</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Том-некст
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 0,2500">↓</i><span class="nowrap">6,25</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            Спот-некст
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 0,2500">↓</i><span class="nowrap">6,25</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            До востребования
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 0,2500">↓</i><span class="nowrap">6,25</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <ul class="without_dash">
+                                                    <li><a href="/DKP/depf/?date=today" target="_blank">
+                                                            Условия
+                                                            проведения депозитных операций по фиксированным процентным ставкам
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
