@@ -11,46 +11,15 @@ body {
 
 
 /* ОБЩИЕ */
-a {
-    cursor: pointer;
-    text-decoration: none;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-
-    &:visited {
-        color: #728bc4;
-        border-color: rgba(114, 139, 196, .3);
-    }
-}
-
-.no_visited a:visited, .pseudo, .pseudo:visited, a, a.no_visited:visited {
-    color: #143f9e;
-    border-color: rgba(20, 63, 158, .3);
-
-    &:hover {
-        color: #b66d28;
-        border-color: rgba(182, 109, 40, .3)
-    }
-}
-
-.no_underline a, a.no_underline {
-    border-bottom: none;
-}
-
-.pseudo {
-    cursor: pointer;
-    border-bottom-width: 1px;
-    border-bottom-style: dotted;
-
-    &:hover {
-        color: #b66d28;
-        border-color: rgba(182, 109, 40, .3);
-    }
-}
-
+/* Ссылки */
 h1, h2, h3, h4 {
     font-weight: 400;
     line-height: 1.2;
+}
+
+h2 {
+    font-size: 190%;
+    margin-top: 1.2em;
 }
 
 table {
@@ -84,6 +53,54 @@ input, textarea {
     .border-box;
     .border-radius(4px);
 }
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
+    &:hover {
+        color: #b66d28;
+        border-color: rgba(182, 109, 40, .3);
+    }
+
+    &:visited {
+        color: #728bc4;
+        border-color: rgba(114, 139, 196, .3);
+    }
+}
+
+.no_visited a:visited, .pseudo, .pseudo:visited, a, a.no_visited:visited {
+    color: #143f9e;
+    border-color: rgba(20, 63, 158, .3);
+
+    &:hover {
+        color: #b66d28;
+        border-color: rgba(182, 109, 40, .3)
+    }
+}
+
+.no_underline a, a.no_underline {
+    border-bottom: none;
+}
+
+.pseudo {
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+
+    &:hover {
+        color: #b66d28;
+        border-color: rgba(182, 109, 40, .3);
+    }
+}
+
+.alt_links .pseudo, .alt_links .pseudo:visited, .alt_links a, .alt_no_visited a, .alt_no_visited a:visited, a.alt, a.alt_no_visited, a.alt_no_visited:visited, span.pseudo.alt, span.pseudo.alt:visited {
+    color: #000;
+    border-color: rgba(0, 0, 0, .3);
+}
+/* /Ссылки */
 
 /* Знак рубля */
 @font-face {
@@ -511,6 +528,68 @@ input, textarea {
 
             .col {
                 clear: none;
+
+                &.col_important, &.hot {
+                    width: 50%;
+                    float: right;
+
+                    .hot_block {
+                        h2 {
+                            margin: 1.5em 0 .5em;
+
+                            a.rss {
+                                color: #eaaa0c;
+                                border-color: rgba(234, 170, 12, .3);
+                                font-size: 50%;
+                                margin-left: 20px;
+                                position: relative;
+                                top: -10px;
+
+                                .ico-rss {
+                                    left: -14px;
+                                    position: absolute;
+                                    top: 0;
+                                    font-size: 12px;
+                                    margin-right: 4px;
+                                }
+                            }
+                        }
+
+                        .news_list .glide__slide {
+                            width: 100% !important;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
+                            -webkit-touch-callout: none;
+                            -webkit-tap-highlight-color: transparent;
+
+                            dt {
+                                font-size: 82%;
+                            }
+
+                            dd {
+                                margin-bottom: 1.2em;
+
+                                a {
+                                    -webkit-user-select: none;
+                                    -moz-user-select: none;
+                                    -ms-user-select: none;
+                                    user-select: none;
+                                    -webkit-user-drag: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .hot_block.news_block {
+                        margin-bottom: -10px;
+
+                        h2 {
+                            margin-top: 0;
+                        }
+                    }
+                }
 
                 &.widgets {
                     width: -webkit-calc(50% - 35px);

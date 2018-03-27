@@ -101,6 +101,75 @@
             </nav>
             <main>
                 <div id="content">
+                    <div class="col col_important">
+                        <div class="hot_block news_block">
+                            <h2>
+                                <a class="alt_no_visited" href="/news/">Новое на сайте</a><a class="rss" href="/rss/RssNews"><i class="ico-rss"></i>RSS</a>
+                            </h2>
+                            <div class="news_list">
+                                <div class="glide__slide active" style="width: 0px;">
+                                    <div class="glide__slide-inner">
+                                        <dl>
+                                            <dt>
+                                                27 марта 2018 г.
+                                            </dt>
+                                            <dd>
+                                                <a href="/analytics/?PrtId=insideinfo#giko">Инсайдерская информация Банка России</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="glide__slide" style="width: 0px;">
+                                    <div class="glide__slide-inner">
+                                        <dl>
+                                            <dt>
+                                                27 марта 2018 г.
+                                            </dt>
+                                            <dd>
+                                                <a href="/hd_base/BankPapers.asp?date_req=new">Информация о ценных бумагах, принимаемых в обеспечение по кредитам Банка России на 28.03.2018</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="glide__slide" style="width: 0px;">
+                                    <div class="glide__slide-inner">
+                                        <dl>
+                                            <dt>
+                                                27 марта 2018 г.
+                                            </dt>
+                                            <dd>
+                                                <a href="/DKP/depf/">Опубликованы условия проведения депозитных операций по фиксированным процентным ставкам</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="glide__slide" style="width: 0px;">
+                                    <div class="glide__slide-inner">
+                                        <dl>
+                                            <dt>
+                                                27 марта 2018 г.
+                                            </dt>
+                                            <dd>
+                                                <a href="/finmarket/rbr/">Решения Банка России в отношении участников финансового рынка</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="glide__slide" style="width: 0px;">
+                                    <div class="glide__slide-inner">
+                                        <dl>
+                                            <dt>
+                                                27 марта 2018 г.
+                                            </dt>
+                                            <dd>
+                                                <a href="/bank-notes_coins/cb/">Отпускные цены Банка России на инвестиционные монеты</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- Виджеты -->
                     <div class="col widgets no_visited">
                         <!-- Закреплённый виджет про ключевую ставку и инфляцию -->
