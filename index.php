@@ -101,7 +101,9 @@
             </nav>
             <main>
                 <div id="content">
+                    <!-- Виджеты -->
                     <div class="col widgets no_visited">
+                        <!-- Закреплённый виджет про ключевую ставку и инфляцию -->
                         <div class="group static opened">
                             <div class="wrap">
                                 <div class="wrap2">
@@ -159,10 +161,13 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Виджеты, которые можно перемещать -->
                         <div class="widgets-draggable">
-                            <div class="group opened">
+                            <!-- Открытый виджет про курс валют, золото -->
+                            <div class="group opened" id="group_mainid">
                                 <h2 class="dragger-handler">
-                                    <ins class="bg"></ins>
+                                    <span class="dragger"><i class="ico-dragger"></i></span>
                                     <div class="holder">
                                         <span class="pseudo">
                                             <i class="toggler ico ico-arrow-fat"></i>
@@ -351,18 +356,20 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Семь закрытых виджетов -->
+                            <!-- 1 -->
                             <div class="group" id="group_mbrstavki">
-                                <h2 class="dragger-handler ui-sortable-handle">
+                                <h2 class="dragger-handler">
                                     <span class="dragger">
                                         <i class="ico-dragger"></i>
                                     </span>
-                                    <ins class="bg"></ins>
-                                    <span class="holder">
+                                    <div class="holder">
                                         <span class="pseudo">
                                             <i class="toggler ico ico-arrow-fat"></i>
                                             Параметры операций Банка России
                                         </span>
-                                    </span>
+                                    </div>
                                 </h2>
                                 <div class="wrap">
                                     <div class="wrap2">
@@ -633,6 +640,483 @@
                                                             проведения депозитных операций по фиксированным процентным ставкам
                                                         </a></li>
                                                 </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 2 -->
+                            <div class="group" id="group_creditclaims">
+                                <h2 class="dragger-handler ui-sortable-handle">
+                                    <span class="dragger"><i class="ico-dragger"></i></span>
+                                    <div class="holder">
+                                        <span class="pseudo">
+                                            <i class="toggler ico ico-arrow-fat"></i>
+                                            Требования Банка России к кредитным организациям
+                                        </span>
+                                    </div>
+                                </h2>
+                                <div class="wrap">
+                                    <div class="wrap2">
+                                        <div class="widget opened type_table name_overnight">
+                                            <div class="content">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title">
+                                                            млн руб.
+                                                        </th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/dv/?P1=1" target="_blank">По кредитам overnight</a>&nbsp;<ins>
+                                                                на 27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="up" title="+ 18,2000">↑</i><span class="nowrap">27,8</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/dv/?P1=2" target="_blank">По ломбардным кредитам</a>&nbsp;<ins>
+                                                                на 27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">0,0</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/dv/?P1=4" target="_blank">По кредитам под активы или поручительства</a>&nbsp;<ins>
+                                                                на 27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="up" title="+ 8,0000">↑</i><span class="nowrap">325 059,1</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/repo_debt/" target="_blank">По операциям РЕПО</a>&nbsp;<ins>
+                                                                на 27.03.2018</ins>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>на аукционной основе</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">0,0</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>по фиксированной ставке</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">5 496,6</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/swapdaytotal/" target="_blank">По сделкам «валютный своп»</a>&nbsp;<ins>
+                                                                на  27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">0,0</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/unsecloansdebt/" target="_blank">По кредитам без обеспечения</a>&nbsp;<ins>
+                                                                на 31.12.2010</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">0</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 3 -->
+                            <div id="group_liquidity" class="group">
+                                <h2 class="dragger-handler ui-sortable-handle"><span class="dragger"><i class="ico-dragger"></i></span><div class="holder"><span class="pseudo"><i class="toggler ico ico-arrow-fat"></i>Показатели ликвидности банковского сектора
+          </span></div></h2>
+                                <div class="wrap">
+                                    <div class="wrap2">
+                                        <div class="widget opened type_table name_liquidity">
+                                            <div class="content">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title">млрд руб.</th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/bliquidity/" target="_blank">Структурный дефицит/профицит ликвидности банковского сектора</a>&nbsp;<ins>
+                                                                на 27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 35,1000">↓</i><span class="nowrap">-3 586,7</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <p><a href="/hd_base/ostat_base/" target="_blank">Сведения об остатках средств на корреспондентских счетах кредитных организаций</a></p>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title">млрд руб.</th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            По Российской Федерации <ins>
+                                                                на  27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 592,4000">↓</i><span class="nowrap">1 653,6</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            По Московскому региону <ins>
+                                                                на 27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="down" title="- 572,6000">↓</i><span class="nowrap">1 308,2</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title">млрд руб.</th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/dv/?TP=3" target="_blank">Объем предоставленных внутридневных кредитов</a>&nbsp;<ins>
+                                                                за 26.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="up" title="+ 294,6100">↑</i><span class="nowrap">455,9</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title">млрд руб.</th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/ostat_depo_new/" target="_blank">Депозиты банков в Банке России</a>&nbsp;<ins>
+                                                                на 27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="up" title="+ 34,2000">↑</i><span class="nowrap">2 791,6</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title">млрд руб.</th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/obr/obrcictotal/" target="_blank">ОБР в обращении</a>&nbsp;<ins>
+                                                                на 27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">1 125,7</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th class="title">млрд руб.</th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/saldo/" target="_blank">Сальдо операций Банка России по предоставлению/абсорбированию ликвидности</a><ins>
+                                                                на 27.03.2018</ins>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><i class="up" title="+ 34,7000">↑</i><span class="nowrap">180,8</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <ul class="without_dash without_indent">
+                                                    <li><a href="/statistics/?Prtid=flikvid" target="_blank">Факторы формирования ликвидности банковского сектора</a></li>
+                                                    <li><a href="/statistics/?PrtID=pffl" target="_blank">Прогноз факторов формирования ликвидности банковского сектора</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 4 -->
+                            <div class="group" id="group_nor">
+                                <h2 class="dragger-handler ui-sortable-handle"><span class="dragger"><i class="ico-dragger"></i></span><div class="holder"><span class="pseudo"><i class="toggler ico ico-arrow-fat"></i>Обязательные резервные требования
+          </span></div></h2>
+                                <div class="wrap">
+                                    <div class="wrap2">
+                                        <div class="widget opened type_table name_guidelines">
+                                            <div class="content">
+                                                <h3><a href="/statistics/credit_statistics/require_res.xlsx" target="_blank">Нормативы обязательных резервов</a>, %
+                                                </h3>
+                                                <table>
+                                                    <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th>В валюте РФ</th>
+                                                        <th>В ин. валюте</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title" colspan="3"><strong>по обязательствам перед юридическими лицами – нерезидентами </strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title" colspan="3">
+                                                            для банков с универсальной лицензией, банков с базовой лицензией, небанковских кредитных организаций
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>за исключением долгосрочных</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">5,00</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>по долгосрочным</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">5,00</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title" colspan="3"><strong>по обязательствам перед физическими лицами</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>для банков с универсальной лицензией, небанковских кредитных организаций</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">5,00</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">6,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>для банков с базовой лицензией</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">1,00</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">6,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title" colspan="3"><strong>по иным обязательствам кредитных организаций</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title" colspan="3">
+                                                            для банков с универсальной лицензией, небанковских кредитных организаций
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>за исключением долгосрочных</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">5,00</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>по долгосрочным</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">5,00</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title" colspan="3">
+                                                            для банков с базовой лицензией
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>за исключением долгосрочных</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">1,00</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            <ul class="without_dash">
+                                                                <li>по долгосрочным</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">1,00</span></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">7,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="hr no_bul"></div>
+                                                <h3><a href="/pr/" target="_blank">Коэффициент усреднения обязательных резервов</a></h3>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title">
+                                                            для банков с универсальной лицензией, банков с базовой лицензией
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">0,80</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">
+                                                            для небанковских кредитных организаций
+                                                        </td>
+                                                        <td>
+                                                            <div class="w_data_wrap"><span class="nowrap">1,00</span></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 5 -->
+                            <div class="group" id="group_mrrf">
+                                <h2 class="dragger-handler ui-sortable-handle"><span class="dragger"><i class="ico-dragger"></i></span><ins class="bg" style="display: none;"></ins><div class="holder"><span class="pseudo"><i class="toggler ico ico-arrow-fat"></i>Международные резервы Российской Федерации
+          </span></div></h2>
+                                <div class="wrap" style="display: none;">
+                                    <div class="wrap2">
+                                        <div class="widget opened type_table name_guidelines">
+                                            <div class="content">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title"><a href="/hd_base/mrrf/mrrf_7d/">16.03.2018</a>,
+                                                            <ins>млрд долл. США</ins>
+                                                        </td>
+                                                        <td>455,4</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 6 -->
+                            <div class="group"id="group_SubBlock">
+                                <h2 class="dragger-handler ui-sortable-handle"><span class="dragger"><i class="ico-dragger"></i></span><div class="holder"><span class="pseudo"><i class="toggler ico ico-arrow-fat"></i>Базовый уровень доходности вкладов
+          </span></div></h2>
+                                <div class="wrap">
+                                    <div class="wrap2">
+                                        <div class="widget opened type_table name_guidelines">
+                                            <div class="content">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title"><a href="/analytics/?PrtId=budv">
+                                                                Базовый уровень доходности вкладов
+                                                            </a></td>
+                                                        <td><span class="nowrap">апрель 2018 г.</span></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 7 -->
+                            <div class="group" id="group_SubBlock2">
+                                <h2 class="dragger-handler ui-sortable-handle"><span class="dragger"><i class="ico-dragger"></i></span><div class="holder"><span class="pseudo"><i class="toggler ico ico-arrow-fat"></i>Среднерыночные значения полной стоимости потребительского кредита (займа)
+          </span></div></h2>
+                                <div class="wrap">
+                                    <div class="wrap2">
+                                        <div class="widget opened type_table name_guidelines">
+                                            <div class="content">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title"><a href="/analytics/?PrtId=inf">
+                                                                Среднерыночные значения полной стоимости потребительского кредита (займа)
+                                                            </a></td>
+                                                        <td><span class="nowrap">на 16.11.2017</span></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
                                     </div>

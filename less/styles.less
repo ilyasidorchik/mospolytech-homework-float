@@ -85,7 +85,7 @@ input, textarea {
     .border-radius(4px);
 }
 
-/* Знак рубля
+/* Знак рубля */
 @font-face {
     font-family: 'Rouble PTSans';
     src: url(fonts/ie-rouble-ptsans-regular.eot);
@@ -540,9 +540,7 @@ input, textarea {
                                 padding: 0 1.5em 1px .8em;
                                 margin-top: -10px;
                                 background: #f7f7f7;
-                                -webkit-border-radius: 0 0 .5em .5em;
-                                -moz-border-radius: 0 0 .5em .5em;
-                                border-radius: 0 0 .5em .5em;
+                                .border-radius(0 0 .5em .5em);
 
                                 .widget {
                                     padding-top: .9em;
@@ -580,6 +578,12 @@ input, textarea {
 
                                         table {
                                             text-align: right;
+
+                                            .with_spacing {
+                                                th, td {
+                                                    padding-top: 1.2em !important;
+                                                }
+                                            }
 
                                             th {
                                                 padding: 0 0 .5em .65em;
@@ -731,60 +735,54 @@ input, textarea {
                             }
                         }
                     }
-
-                    .opened h2 .bg {
-                        display: block !important;
-                    }
                 }
 
                 .widgets-draggable {
                     margin-left: -25px;
-                    position: relative;
 
                     .group {
-                        h2 {
+                        h2.dragger-handler {
                             position: relative;
-                            .border-radius(.5em .5em 0 0);
-                            margin: 0;
                             margin-left: 25px;
                             width: -webkit-calc(100% - 25px);
                             width: -moz-calc(100% - 25px);
                             width: calc(100% - 25px);
                             font-size: 120%;
                             line-height: 1.2;
-                            background: #f7f7f7;
+
+                            .dragger {
+                                position: absolute;
+                                top: 50%;
+                                padding-left: 10px;
+                                width: 15px;
+                                left: -25px;
+                                margin-top: -17px;
+                                cursor: move;
+                                display: none;
+
+                                .ico-dragger {
+                                    font-size: 35px;
+                                    color: #ddd9da;
+                                }
+                            }
 
                             .holder {
                                 position: relative;
                                 padding: .9em 4em 1em .9em;
-                            }
-
-                            .bg {
+                                background: #f7f7f7;
                                 .border-radius(.5em .5em 0 0);
-                                display: none;
-                                position: absolute;
-                                width: 100%;
-                                height: 100%;
-                                left: 0;
-                                top: 0;
-                                background: #e2e0e1;
-                                background: -webkit-gradient(linear, left top, left bottom, from(#e2e0e1), to(#e8e6e7));
-                                background: -webkit-linear-gradient(top, #e2e0e1 0, #e8e6e7 100%);
-                                background: -moz-linear-gradient(top, #e2e0e1 0, #e8e6e7 100%);
-                                background: -o-linear-gradient(top, #e2e0e1 0, #e8e6e7 100%);
-                                background: linear-gradient(to bottom, #e2e0e1 0, #e8e6e7 100%);
-                            }
 
-                            .ico {
-                                cursor: pointer;
-                                font-size: 10px;
-                                font-weight: 600;
-                                padding: 4px;
-                                position: absolute;
-                                right: 10px;
-                                top: 50%;
-                                .transition(all .2s 0s ease-in-out);
-                                .transform(translateY(-50%) rotate(-90deg));
+                                .ico {
+                                    cursor: pointer;
+                                    font-size: 10px;
+                                    font-weight: 600;
+                                    padding: 4px;
+                                    position: absolute;
+                                    right: 10px;
+                                    top: 50%;
+                                    .transition(all .2s 0s ease-in-out);
+                                    .transform(translateY(-50%) rotate(90deg));
+                                }
                             }
                         }
 
@@ -814,19 +812,26 @@ input, textarea {
                             width: calc(100% - 25px) !important;
                         }
 
-                        .dragger {
-                            position: absolute;
-                            top: 50%;
-                            padding-left: 10px;
-                            width: 15px;
-                            left: -25px;
-                            margin-top: -17px;
-                            cursor: move;
-                            display: none;
+                        &.opened {
+                            h2.dragger-handler {
+                                .holder {
+                                    background: #e2e0e1;
+                                    background: -webkit-gradient(linear, left top, left bottom, from(#e2e0e1), to(#e8e6e7));
+                                    background: -webkit-linear-gradient(top, #e2e0e1 0, #e8e6e7 100%);
+                                    background: -moz-linear-gradient(top, #e2e0e1 0, #e8e6e7 100%);
+                                    background: -o-linear-gradient(top, #e2e0e1 0, #e8e6e7 100%);
+                                    background: linear-gradient(to bottom, #e2e0e1 0, #e8e6e7 100%);
 
-                            .ico-& {
-                                font-size: 35px;
-                                color: #ddd9da;
+                                    .ico {
+                                        .transform(translateY(-50%) rotate(-90deg)) !important;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            .dragger {
+                                display: inline-block !important;
                             }
                         }
                     }
