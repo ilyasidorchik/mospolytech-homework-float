@@ -101,6 +101,7 @@
             </nav>
             <main>
                 <div id="content">
+                    <!-- Новое на сайте -->
                     <div class="col col_important">
                         <div class="hot_block news_block">
                             <h2>
@@ -170,6 +171,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Виджеты -->
                     <div class="col widgets no_visited">
                         <!-- Закреплённый виджет про ключевую ставку и инфляцию -->
@@ -1192,6 +1194,249 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <!-- События, доки -->
+                    <div class="col hot">
+                        <div class="hot_block">
+                            <h2>
+                                <a class="alt_no_visited" href="/Press/">События и комментарии</a><a class="rss" href="/rss/eventrss"><i class="ico-rss"></i>RSS</a>
+                            </h2>
+                            <dl>
+                                <dt>
+                                    27 марта 2018 г.
+                                </dt>
+                                <dd>
+                                    <a class="no_underline" href="/Press/event/?id=1725"><span class="with_bottom_shadow"><img alt="" src="http://www.cbr.ru/today/PhotoStore/getimgid/6213.png"></span></a>
+                                    <p>
+                                        <a href="/Press/event/?id=1725">Вышел первый номер обновленного научного журнала Банка России «Деньги и кредит»</a>
+                                    </p>
+                                </dd>
+                                <dt>
+                                    27 марта 2018 г.
+                                </dt>
+                                <dd>
+                                    <p>
+                                        <a href="/Press/event/?id=1724">Банк России и участники рынка обсудили комплекс мер по противодействию страховому мошенничеству</a>
+                                    </p>
+                                </dd>
+                                <dt>
+                                    23 марта 2018 г.
+                                </dt>
+                                <dd>
+                                    <p>
+                                        <a href="/Press/event/?id=1722">Заявление Председателя Банка России Эльвиры Набиуллиной по итогам заседания Совета директоров 23 марта 2018 года</a>
+                                    </p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="hot_block press_releases">
+                            <h2>
+                                <a class="alt_no_visited" href="/press/?PrtId=month_archive">Пресс-релизы</a><a class="rss" href="/rss/RssPress"><i class="ico-rss"></i>RSS</a>
+                            </h2>
+                            <div class="important_articles with_bottom_shadow">
+                                <span class="important">Важно</span>
+                                <dl>
+                                    <dt>
+                                        23 марта 2018 г.
+                                    </dt>
+                                    <dd>
+                                        <a href="/press/pr.aspx?file=23032018_133000keyrate2018-03-23T13_20_35.htm">Банк России принял решение снизить ключевую ставку на 25 б.п., до 7,25% годовых</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <dl>
+                                <dt>
+                                    27 марта 2018 г.
+                                </dt>
+                                <dd>
+                                    <a href="/press/pr.aspx?file=27032018_184500if2018-03-27T18_42_00.htm">О кадровых назначениях</a>
+                                </dd>
+                                <dt>
+                                    26 марта 2018 г.
+                                </dt>
+                                <dd>
+                                    <a href="/press/pr.aspx?file=26032018_173339sbrfr2018-03-26T17_32_57.htm">Об установлении фактов манипулирования рынками облигаций Гришиным А.П. и Гришиным Д.П.</a>
+                                </dd>
+                                <dt>
+                                    26 марта 2018 г.
+                                </dt>
+                                <dd>
+                                    <a href="/press/pr.aspx?file=26032018_110500vbr2018-03-26T10_56_27.htm">О выходе очередного номера «Вестника Банка России»</a>
+                                </dd>
+                                <dt>
+                                    23 марта 2018 г.
+                                </dt>
+                                <dd>
+                                    <a href="/press/pr.aspx?file=23032018_175600dkp2018-03-23T17_54_02.htm">О процентных ставках по специализированным инструментам рефинансирования Банка России</a>
+                                </dd>
+                                <dt>
+                                    22 марта 2018 г.
+                                </dt>
+                                <dd>
+                                    <a href="/press/pr.aspx?file=22032018_200516ik2018-03-22T20_02_28.htm">О результатах мониторинга максимальных процентных ставок кредитных организаций</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="hot_block materials">
+                            <h2>
+                                Актуальные документы
+                            </h2>
+                            <ul>
+                                <li>
+                                    <p class="file small_icon">
+                                        <a href="/publ/ddcp/2018_01_ddcp.pdf" target="_blank">Доклад о денежно-кредитной политике - Выпуск № 1 (21) • Март 2018 года</a><i class="sprite sprite-pdf-min"></i><span class="important">Важно</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="/fintech/">Основные направления развития финансовых технологий на период 2018–2020 годов</a>
+                                </li>
+                                <li>
+                                    <p class="file small_icon">
+                                        <a href="/publ/Stability/OFS_17-02.pdf" target="_blank">Обзор финансовой стабильности • II-III кварталы 2017 г.</a><i class="sprite sprite-pdf-min"></i><span class="important">Важно</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file small_icon">
+                                        <a href="/publ/ondkp/on_2018(2019-2020).pdf" target="_blank">Основные направления единой государственной денежно-кредитной политики на 2018 год и период 2019 и 2020 годов</a><i class="sprite sprite-pdf-min"></i><span class="important">Важно</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file small_icon">
+                                        <a href="/publ/God/ar_2016.pdf" target="_blank">Годовой отчет Банка России за 2016 год</a><i class="sprite sprite-pdf-min"></i>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file small_icon">
+                                        <a href="/publ/bsr/bsr_2016.pdf" target="_blank">Отчет о развитии банковского сектора и банковского надзора в 2016 году</a><i class="sprite sprite-pdf-min"></i>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file small_icon">
+                                        <a href="/publ/Vestnik/ves161017091.pdf" target="_blank">Результаты наблюдения в национальной платежной системе за 2014–2016 годы</a><i class="sprite sprite-pdf-min"></i>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file small_icon">
+                                        <a href="/finmarkets/files/development/onrfr_2016-18.pdf" target="_blank">Основные направления развития финансового рынка Российской Федерации на период 2016–2018 годов</a><i class="sprite sprite-pdf-min"></i><span class="important">Важно</span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hot_block materials">
+                            <h2>
+                                Дополнительные материалы
+                            </h2>
+                            <ul>
+                                <li>
+                                    <p class="file">
+                                        <a href="/press/PR/?file=21092017_185507if2017-09-21T18_54_46.htm">О проведении конкурса по определению аудиторской организации — аудитора годовой финансовой отчетности Банка России</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file small_icon">
+                                        <a class="referenceable" href="/StaticHtml/File/17579/20180126_03-40-9_536_1_2373.pdf" id="a_17579" target="_blank">Письмо Банка России и государственной корпорации «Агентство по страхованию вкладов» от 26.01.2018 № 03-40-9/536/1/2373 «О способе доставки банку уведомления о ставке взносов государственной корпорации «Агентство по страхованию вкладов»</a><i class="sprite sprite-pdf-min"></i><span class="important">Важно</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file">
+                                        <a href="/analytics/?Prtid=project">Проекты нормативных актов Банка России</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file">
+                                        <a href="/DKP/instruments_dkp/schedule_gr/#a_33536">График операций Банка России</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file">
+                                        <a href="/today/?PrtId=tenders_new">Информация Тендерного комитета Банка России</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file">
+                                        <a href="/credit/dl_msg_list.asp">Перечень инсайдерской информации Банка России</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="file">
+                                        <a href="/psystem/?Prtid=admin&amp;ch=PAR_56620#CheckedItem">Реквизиты для перечисления платежей в бюджет</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hot_block materials">
+                            <h2>
+                                Справочная информация
+                            </h2>
+                            <ul>
+                                <li>
+                                    <a href="/statistics/?Prtid=int_rat&amp;ch=PAR_222#CheckedItem" target="_blank">Сведения о средних ставках банковского процента по вкладам физических лиц в рублях, в долларах США и евро для целей применения ст. 395 ГК РФ (по федеральным округам) за период с 01.06.2015 по 31.07.2016.</a>
+                                </li>
+                                <li>
+                                    <a href="/dkp/standart_system/calc/" target="_blank">Кредитный калькулятор для кредитных организаций</a>
+                                </li>
+                                <li>
+                                    <a href="/other/holidays_2018/" target="_blank">Перечень нерабочих праздничных дней и перенесенных выходных дней в 2018 году</a>
+                                </li><!--<li><a href="/StaticHtml/File/17579/holidays_2018.htm" target="_blank">Перечень нерабочих праздничных дней и перенесенных выходных дней в 2018 году</a></li>-->
+                                <li>
+                                    <a href="/development/" target="_blank">Технические ресурсы</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <style type="text/css">
+                            /*<![CDATA[*/
+
+                            .comment_tr {
+                                border: 1px solid #C1BEB7;
+                                position: relative;
+
+                                padding: 14px 72px 25px;
+                                -webkit-border-radius: 5px;
+                                -moz-border-radius: 5px;
+                                border-radius: 5px;
+                                box-shadow: 0px 25px 11px -26px rgba(0, 0, 0, .4);
+                                background-image: url("/images/microphone.svg");
+                                background-repeat:no-repeat;
+                                background-position: 8px 10px;
+                                background-size: 54px 54px;
+                            }
+
+                            .comment_invest {
+                                border: 1px solid #C1BEB7;
+                                position: relative;
+                                padding: 14px 78px 25px;
+                                -webkit-border-radius: 5px;
+                                -moz-border-radius: 5px;
+                                border-radius: 5px;
+                                box-shadow: 0px 25px 11px -26px rgba(0, 0, 0, .4);
+                                background-image: url("/images/invest.png");
+                                background-repeat:no-repeat;
+                                background-position: 12px 10px;
+                                background-size: 48px 54px;
+                                max-width: 300px;
+                            }
+
+                            .comment {
+                                border: 1px solid #C1BEB7;
+                                position: relative;
+
+                                padding: 18px 10px 25px 80px;
+                                -webkit-border-radius: 5px;
+                                -moz-border-radius: 5px;
+                                border-radius: 5px;
+                                box-shadow: 0px 25px 11px -26px rgba(0, 0, 0, .4);
+                                background-image: url("/images/strategy_fm.png");
+                                background-repeat:no-repeat;
+                                background-position: 10px 10px;
+                                background-size: 53px 53px;
+
+                                max-width: 440px;
+
+                            }
+
+                            /*]]*/
+                        </style>
                     </div>
                 </div>
             </main>
