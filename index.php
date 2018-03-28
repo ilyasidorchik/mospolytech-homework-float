@@ -1530,6 +1530,63 @@
                 </div>
             </div>
         </div>
+        <div id="for_footer"></div>
+        <footer>
+            <div class="wrap cleared no_visited">
+                <i class="ico-footer-logo"></i>
+                <ul class="menu cleared">
+                    <li>
+                        <a href="/About/">О&nbsp;сайте</a>
+                    </li>
+                    <li>
+                        <a href="/archive/">Архив</a>
+                    </li>
+                    <li>
+                        <a href="/sitemap/">Поиск и&nbsp;карта сайта</a>
+                    </li>
+                    <li>
+                        <a href="/links/">Другие ресурсы</a>
+                    </li>
+                    <li>
+                        <span class="version-switcher">
+                            <span class="pseudo version-switcher__link version-switcher__link_impaired"><i class="ico-spectacles"></i>Версия для слабовидящих</span>
+                            <span class="pseudo version-switcher__link version-switcher__link_normal"><i class="ico-spectacles"></i>Обычная версия</span>
+                        </span>
+                    </li>
+                </ul>
+
+                <div class="col copy">
+                    © Банк России, 2000–2018
+                </div>
+
+
+                <div class="col contacts">
+                    <div class="contacts__item">
+                        <p>Адрес: ул. Неглинная, 12, Москва, 107016</p>
+                        <p>Телефоны: <nobr>8 800 250-40-72</nobr> (для бесплатных звонков из регионов России), <nobr>+7 495 771-91-00</nobr> (круглосуточно, по рабочим дням), <nobr>факс: +7 495 621-64-65</nobr></p>
+                    </div>
+                    <div class="contacts__item">
+                        <p><a href="/contacts/">Контактная информация</a></p>
+                        <p><a href="/press/sms/">О порядке направления Банком России SMS-сообщений</a></p>
+                        <p>Вся официальная контактная информация Банка России представлена на официальном сайте Банка России <a href="http://www.cbr.ru">www.cbr.ru</a></p>
+                    </div>
+                </div>
+
+                <div class="made_in">
+                    <p>
+                        Дизайн сайта&nbsp;—&nbsp;
+                        <a href="http://www.artlebedev.ru/">
+                            <img alt="Логотип Студии Артемия Лебедева" src="img/ALS_logo.svg" class="made-in-logo_normal" width="100">
+                            <!-- <img alt="Логотип Студии Артемия Лебедева" src="/f/media/home/ALS_logo_impaired.svg" class="made-in-logo_impaired" width="100"> -->
+                            Студия Артемия&nbsp;Лебедева
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.artlebedev.ru/cbr/site3.5/">Информация о&nbsp;сайте</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
     </div>
     </body>
 </html>
