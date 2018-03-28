@@ -1396,7 +1396,7 @@
                                 -moz-border-radius: 5px;
                                 border-radius: 5px;
                                 box-shadow: 0px 25px 11px -26px rgba(0, 0, 0, .4);
-                                background-image: url("/images/microphone.svg");
+                                background-image: url("img/microphone.svg");
                                 background-repeat:no-repeat;
                                 background-position: 8px 10px;
                                 background-size: 54px 54px;
@@ -1410,7 +1410,7 @@
                                 -moz-border-radius: 5px;
                                 border-radius: 5px;
                                 box-shadow: 0px 25px 11px -26px rgba(0, 0, 0, .4);
-                                background-image: url("/images/invest.png");
+                                background-image: url("img/invest.png");
                                 background-repeat:no-repeat;
                                 background-position: 12px 10px;
                                 background-size: 48px 54px;
@@ -1426,7 +1426,7 @@
                                 -moz-border-radius: 5px;
                                 border-radius: 5px;
                                 box-shadow: 0px 25px 11px -26px rgba(0, 0, 0, .4);
-                                background-image: url("/images/strategy_fm.png");
+                                background-image: url("img/strategy_fm.png");
                                 background-repeat:no-repeat;
                                 background-position: 10px 10px;
                                 background-size: 53px 53px;
@@ -1440,6 +1440,95 @@
                     </div>
                 </div>
             </main>
+            <div class="home_banners">
+                <div class="banners_list">
+                    <div class="glide__slide active" style="width: 0px;">
+                        <div class="glide__slide-inner">
+                            <a class="home_banner" href="http://fincult.info">
+                                <div class="home_banner_img" id="wide_banner">
+                                    <img alt="fincult.info" height="39" src="img/fincult_banner.png" width="140">
+                                </div>
+                                <div class="home_banner_text">
+                                    Образовательный портал
+                                </div></a> <a class="home_banner" href="/ec_research/lmsh/">
+                                <div class="home_banner_img" id="wide_banner">
+                                    <img alt="II Летняя макроэкономическая школа" height="50" src="img/school_2.png" width="80">
+                                </div>
+                                <div class="home_banner_text">
+                                    II Летняя макроэкономическая школа<br>
+                                    5 июня 2018 года,Санкт-Петербург
+                                </div></a> <a class="home_banner" href="http://ibcongress.com">
+                                <div class="home_banner_img" id="wide_banner">
+                                    <img alt="Международный финансовый конгресс 2018" height="50" src="img/ibc2018.png" width="103">
+                                </div>
+                                <div class="home_banner_text">
+                                    6-8 июня 2018 года,<br>
+                                    Санкт-Петербург
+                                </div></a>
+                        </div>
+                    </div>
+                    <div class="glide__slide" style="width: 0px;">
+                        <div class="glide__slide-inner">
+                            <a class="home_banner" href="http://finopolis.ru">
+                                <div class="home_banner_img">
+                                    <img alt="Форум инновационных финансовых технологий FINOPOLIS" height="37" src="img/fin2018.png" width="76">
+                                </div>
+                                <div class="home_banner_text">
+                                    Форум инновационных финансовых технологий<br>
+                                    10-12 октября 2018 года, Сочи
+                                </div></a> <a class="home_banner" href="/Reception/#a_tm1273">
+                                <div class="home_banner_img">
+                                    <img alt="Карта Мир. Вопросы и ответы" height="31" src="img/mircard_banner.png" width="109">
+                                </div>
+                                <div class="home_banner_text">
+                                    Вопросы и ответы
+                                </div></a>
+                        </div>
+                    </div>
+                    <div class="glide__slide" style="width: 0px;">
+                        <div class="glide__slide-inner">
+                            <a class="home_banner" href="/analytics/?Prtid=bnksyst&amp;ch=ITM_23953#CheckedItem">
+                                <div class="home_banner_img">
+                                    <img alt="Центры допуска финансовых организаций: функции и процедуры" height="60" src="img/inf_pismo_ban.png" width="55">
+                                </div>
+                                <div class="home_banner_text">
+                                    Центры допуска финансовых организаций: функции и процедуры
+                                </div></a> <a class="home_banner" href="/money-and-finance/">
+                                <div class="home_banner_img">
+                                    <img alt="Деньги и кредит" height="60" src="img/dengi-credit.png" width="98">
+                                </div>
+                                <div class="home_banner_text">
+                                    Журнал<br>
+                                    «Деньги и кредит»
+                                </div></a>
+                        </div>
+                    </div>
+                    <div class="glide__slide" style="width: 0px;">
+                        <div class="glide__slide-inner">
+                            <a class="home_banner" href="/eps/?Prtid=eps&amp;ch=">
+                                <div class="home_banner_img">
+                                    <img alt="Переход НФО на план счетов и ОСБУ" height="60" src="img/eps.png" width="63">
+                                </div>
+                                <div class="home_banner_text">
+                                    Переход НФО на план счетов и ОСБУ
+                                </div></a> <a class="home_banner" href="/finmarket/projects_xbrl1/">
+                                <div class="home_banner_img">
+                                    <img alt="Открытый стандарт отчетности XBRL" height="42" src="img/banner_xbrl.png" width="100">
+                                </div>
+                                <div class="home_banner_text">
+                                    Открытый стандарт отчетности XBRL
+                                </div></a> <a class="home_banner" href="finmarket/evaluation_activ_audit_org/">
+                                <div class="home_banner_img">
+                                    <img alt="Добровольная квалификационная оценка деятельности аудиторских организаций" height="60" src="img/ocen_audit_b.png" width="60">
+                                </div>
+                                <div class="home_banner_text">
+                                    Добровольная квалификационная оценка деятельности аудиторских организаций
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </body>
