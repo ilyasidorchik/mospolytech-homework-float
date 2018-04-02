@@ -1,0 +1,151 @@
+@font-face {
+    font-family: icomoon;
+    src: url(fonts/icomoon.eot);
+    src: url(fonts/icomoon.eot#iefix) format("embedded-opentype"), url(fonts/icomoon.ttf) format("truetype"), url(fonts/icomoon.woff) format("woff"), url(fonts/icomoon.svg#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+[class*=" ico-"],
+[class^=ico-] {
+    font-family: icomoon !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.ico-logo-eng-short:before {
+    content: "\e90a"
+}
+.ico-logo-eng:before {
+    content: "\e90b"
+}
+.ico-logo-chn-short:before,
+.ico-logo-chn:before {
+    content: "\e916"
+}
+.ico-dropdown:before {
+    content: "\e8f7"
+}
+.ico-logo:before {
+    content: "\e900"
+}
+.ico-search:before {
+    content: "\e901"
+}
+.ico-footer-logo:before {
+    content: "\e902"
+}
+.ico-rss:before {
+    content: "\e903"
+}
+.ico-dragger:before {
+    content: "\e904";
+    color: #ddd9da
+}
+.ico-download:before {
+    content: "\e905"
+}
+.ico-logo-short:before {
+    content: "\e906";
+    color: #8a8a8d
+}
+.ico-social-fb:before {
+    content: "\e907"
+}
+.ico-social-tw:before {
+    content: "\e908"
+}
+.ico-social-yt:before {
+    content: "\e909"
+}
+.ico-arr-prev:before {
+    content: "\e90c"
+}
+.ico-arr-next:before {
+    content: "\e90d"
+}
+.ico-logo-eagles:before {
+    content: "\e925"
+}
+.ico-arrow-fat:before {
+    content: "\e923"
+}
+.ico-arrow-triangle:before {
+    content: "\e92e"
+}
+.ico-handset:before {
+    content: "\e924"
+}
+.ico-flag:before {
+    content: "\e93c"
+}
+.ico-info:before {
+    content: "\e929"
+}
+.ico-list-view:before {
+    content: "\e90f"
+}
+.ico-grid-view:before {
+    content: "\e910"
+}
+.ico-edit:before {
+    content: "\e91b"
+}
+.ico-burger:before {
+    content: "\e91c"
+}
+.ico-close:before {
+    content: "\e91d"
+}
+.ico-social-ok:before {
+    content: "\e91f"
+}
+.ico-social-vk:before {
+    content: "\e920"
+}
+.ico-new-window:before {
+    content: "\e90e"
+}
+.ico-arrow-thin:before {
+    content: "\e911"
+}
+.ico-arrow-in-circle:before {
+    content: "\e912"
+}
+.ico-info-in-square:before {
+    content: "\e913"
+}
+.ico-spectacles:before {
+    content: "\e914"
+}
+.ico-print:before {
+    content: "\e915"
+}
+.ico-letter:before {
+    content: "\e926"
+}
+.ico-play:before {
+    content: "\e917"
+}
+.ico-question:before {
+    content: "\e918"
+}
+.ico-plus:before {
+    content: "\e919"
+}
+.ico-star:before {
+    content: "\e91a"
+}
+.ico-close2:before {
+    content: "\e91e"
+}
+.ico-document:before {
+    content: "\e921"
+}
+.ico-ecia:before {
+    content: "\e922"
+}

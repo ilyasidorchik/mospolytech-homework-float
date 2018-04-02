@@ -6,15 +6,20 @@
         <title>Центральный банк Российской Федерации</title>
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link href="less/styles.less" rel="stylesheet/less" type="text/css">
-        <link href="http://cbr.ru/f/r/global/icomoon-styles.min.css" rel="stylesheet" type="text/css">
+        <link href="less/icomoon-styles.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="js/script.js">
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/3.0.0/less.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.0/less.min.js" ></script>
     </head>
     <body>
     <div id="page">
         <div id="layout">
             <header>
                 <div class="main">
+                    <span class="whole_site_opener unselectable">
+                            <span class="burger">
+                                <span></span>
+                            </span>
+                    </span>
                     <div class="logo no_underline">
                         <b>
                             <span class="ico-logo"></span>
@@ -100,6 +105,14 @@
                 </div>
             </nav>
             <main>
+                <div class="important-links">
+                    <span class="item ip">
+                        <a href="#">Интернет-приёмная</a>
+                    </span>
+                    <span class="item">
+                        <a href="#">Ответы на вопросы</a>
+                    </span>
+                </div>
                 <div id="content">
                     <!-- Новое на сайте -->
                     <div class="col col_important">
@@ -1190,6 +1203,95 @@
                                                 </table>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home_banners">
+                            <div class="banners_list">
+                                <div class="glide__slide active" style="width: 0px;">
+                                    <div class="glide__slide-inner">
+                                        <a class="home_banner" href="http://fincult.info">
+                                            <div class="home_banner_img" id="wide_banner">
+                                                <img alt="fincult.info" height="39" src="img/fincult_banner.png" width="140">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                Образовательный портал
+                                            </div></a> <a class="home_banner" href="/ec_research/lmsh/">
+                                            <div class="home_banner_img" id="wide_banner">
+                                                <img alt="II Летняя макроэкономическая школа" height="50" src="img/school_2.png" width="80">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                II Летняя макроэкономическая школа<br>
+                                                5 июня 2018 года,Санкт-Петербург
+                                            </div></a> <a class="home_banner" href="http://ibcongress.com">
+                                            <div class="home_banner_img" id="wide_banner">
+                                                <img alt="Международный финансовый конгресс 2018" height="50" src="img/ibc2018.png" width="103">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                6-8 июня 2018 года,<br>
+                                                Санкт-Петербург
+                                            </div></a>
+                                    </div>
+                                </div>
+                                <div class="glide__slide" style="width: 0px;">
+                                    <div class="glide__slide-inner">
+                                        <a class="home_banner" href="http://finopolis.ru">
+                                            <div class="home_banner_img">
+                                                <img alt="Форум инновационных финансовых технологий FINOPOLIS" height="37" src="img/fin2018.png" width="76">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                Форум инновационных финансовых технологий<br>
+                                                10-12 октября 2018 года, Сочи
+                                            </div></a> <a class="home_banner" href="/Reception/#a_tm1273">
+                                            <div class="home_banner_img">
+                                                <img alt="Карта Мир. Вопросы и ответы" height="31" src="img/mircard_banner.png" width="109">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                Вопросы и ответы
+                                            </div></a>
+                                    </div>
+                                </div>
+                                <div class="glide__slide" style="width: 0px;">
+                                    <div class="glide__slide-inner">
+                                        <a class="home_banner" href="/analytics/?Prtid=bnksyst&amp;ch=ITM_23953#CheckedItem">
+                                            <div class="home_banner_img">
+                                                <img alt="Центры допуска финансовых организаций: функции и процедуры" height="60" src="img/inf_pismo_ban.png" width="55">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                Центры допуска финансовых организаций: функции и процедуры
+                                            </div></a> <a class="home_banner" href="/money-and-finance/">
+                                            <div class="home_banner_img">
+                                                <img alt="Деньги и кредит" height="60" src="img/dengi-credit.png" width="98">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                Журнал<br>
+                                                «Деньги и кредит»
+                                            </div></a>
+                                    </div>
+                                </div>
+                                <div class="glide__slide" style="width: 0px;">
+                                    <div class="glide__slide-inner">
+                                        <a class="home_banner" href="/eps/?Prtid=eps&amp;ch=">
+                                            <div class="home_banner_img">
+                                                <img alt="Переход НФО на план счетов и ОСБУ" height="60" src="img/eps.png" width="63">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                Переход НФО на план счетов и ОСБУ
+                                            </div></a> <a class="home_banner" href="/finmarket/projects_xbrl1/">
+                                            <div class="home_banner_img">
+                                                <img alt="Открытый стандарт отчетности XBRL" height="42" src="img/banner_xbrl.png" width="100">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                Открытый стандарт отчетности XBRL
+                                            </div></a> <a class="home_banner" href="finmarket/evaluation_activ_audit_org/">
+                                            <div class="home_banner_img">
+                                                <img alt="Добровольная квалификационная оценка деятельности аудиторских организаций" height="60" src="img/ocen_audit_b.png" width="60">
+                                            </div>
+                                            <div class="home_banner_text">
+                                                Добровольная квалификационная оценка деятельности аудиторских организаций
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
