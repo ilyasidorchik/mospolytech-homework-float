@@ -291,6 +291,9 @@ a {
 
 /* Медиа-запросы */
 @tablet: ~"(max-width: 992px)";
+@landscape: ~"(max-width: 720px)";
+@mobile: ~"(max-width: 576px)";
+
 
 /* Блок со ссылками на интернет-приёмную и ответы на вопросы */
 .important-links {
@@ -671,11 +674,19 @@ a {
                         @media @tablet {
                             .on;
                         }
+                        @media @landscape {
+                            margin-top: 45px;
+                        }
                     }
 
                     &.col_important, &.hot {
                         width: 50%;
                         float: right;
+
+                        @media @landscape {
+                            width: 100%;
+                            float: none;
+                        }
 
                         .hot_block {
                             h2 {
@@ -763,6 +774,10 @@ a {
                         .hot_block.news_block {
                             margin-bottom: -10px;
 
+                            @media @landscape {
+                                margin-bottom: 0;
+                            }
+
                             h2 {
                                 margin-top: 0;
                             }
@@ -776,6 +791,12 @@ a {
                         min-height: 80vh;
                         max-width: 40em;
                         padding: .5em 0 0 0;
+
+                        @media @landscape {
+                            width: 100%;
+                            float: none;
+                            max-width: 100%;
+                        }
 
                         .group {
                             margin-bottom: 28px;
@@ -1230,6 +1251,10 @@ a {
                         position: relative;
                         padding-left: 31px;
                         margin-left: 10px;
+
+                        @media @landscape {
+                            margin-left: 0;
+                        }
 
                         &__link {
                             &_normal {
