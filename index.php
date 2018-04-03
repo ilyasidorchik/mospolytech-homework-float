@@ -23,6 +23,7 @@
                     <div class="logo no_underline">
                         <b>
                             <span class="ico-logo"></span>
+                            <span class="ico-logo-short"></span>
                         </b>
                     </div>
                 </div>
@@ -120,6 +121,33 @@
                             <h2>
                                 <a class="alt_no_visited" href="/news/">Новое на сайте</a><a class="rss" href="/rss/RssNews"><i class="ico-rss"></i>RSS</a>
                             </h2>
+                            <div class="list_carousel">
+                                <div class="glide-carousel glide--carousel glide--horizontal">
+                                    <div class="glide__bullets">
+                                        <button class="glide__bullet active" data-glide-dir="=1"></button>
+                                        <button class="glide__bullet" data-glide-dir="=2"></button>
+                                        <button class="glide__bullet" data-glide-dir="=3"></button>
+                                        <button class="glide__bullet" data-glide-dir="=4"></button>
+                                        <button class="glide__bullet" data-glide-dir="=5"></button>
+                                    </div>
+                                    <div class="glide__wrapper">
+                                        <div class="glide__track">
+                                            <div class="glide__slide">
+                                                <div class="glide__slide-inner">
+                                                    <dl>
+                                                        <dt>
+                                                            27 марта 2018 г.
+                                                        </dt>
+                                                        <dd>
+                                                            <a href="/analytics/?PrtId=insideinfo#giko">Инсайдерская информация Банка России</a>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="news_list">
                                 <div class="glide__slide active" style="width: 0px;">
                                     <div class="glide__slide-inner">
